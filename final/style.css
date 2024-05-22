@@ -1,0 +1,94 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+nav ul {
+    background: #555;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin-top: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 20px;
+    padding: 10px 20px;
+    border-left: 5px solid #0779e4;
+    background: #e7e7e7;
+}
+
+/* Color Scheme */
+:root {
+    --primary-color: #0779e4; /* Blue for links and borders */
+    --secondary-color: #333; /* Dark grey for text */
+    --accent-color: #555; /* Lighter grey for nav background */
+    --background-color: #f4f4f4; /* Off-white background */
+    --text-color: #333; /* Dark grey text */
+}
+
+/* Typography */
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+
+a:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
